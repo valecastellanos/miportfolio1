@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+  
+}
+
+
+body {
+
+    background-color: #ececec;
+    font-family: "Roboto Mono", monospace;
+    margin: 0%;
+    
+}
+
+header div:first-child{
+
+    width: 260px;
+    height: 85.1688px;
+    margin: auto;
+    background-image: url(../imagenes/animacion.png);
+    background-size: 266px;
+    animation: animacion 2s infinite steps(4);
+    animation-direction: alternate;
+}
+
+@keyframes animacion {
+
+    0% { background-position: -2px -1px;}
+    100%{background-position: -2px -348px; }
+}
+
+header{
+
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(37, 37, 37, 0.784), #ececec);
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    width: 100%;
+    padding-top: 120px;
+    height: 700px;
+
+}
+
+header h1{
+    transform: translateY(25px)
+}
+
+
+
+header p{
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin: auto;
+    transform: translateY(200px)
+       
+}
+
+header a {
+
+    background-color: #D9D9D9;
+    font-size: 13px;
+    color: black;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    width: 90px;
+    height: 30px;
+    margin: auto;
+    line-height: 30px;
+    transition: all 1s;
+    border-radius: 2px;
+
+    margin-top: 10px;
+    
+    }
+    
+ header a:hover {
+    background-color: #E5FF5B;;
+    border: 0.5px dashed black;
+    color: black;
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    }
+
+a:hover {
+        background-color: #E5FF5B;;
+    
+    }
+
+main {
+
+    margin:auto;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+
+main div {
+   
+    width: 40%;
+    margin: 30px auto;
+}
+
+main img { width: 100%; }
+
+video { width: 90%;
+    display: block;
+    margin: 30px auto;
+}
+
+
+main div:last-child{
+
+    margin: 0%;
+    background-image: linear-gradient(#ececec,#ececec, #E5FF5B);
+    height: 200px;
+    width:100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: 150px;
+    text-align: center;
+
+}
+
